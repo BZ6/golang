@@ -1,10 +1,9 @@
 package web
 
 import (
-    "fmt"
-    "net/http"
+  "net/http"
 )
 
 func HomePage(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, "Welcome to the HomePage!")
+  http.ServeFile(w, r, "pages/index.html")
 }

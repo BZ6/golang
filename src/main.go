@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	web.HandleRequests()
+	web.Run()
 }

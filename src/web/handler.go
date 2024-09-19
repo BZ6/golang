@@ -1,10 +1,11 @@
 package web
 
 import (
-    "net/http"
+  "net/http"
 )
 
 func HandleRequests() {
-    http.HandleFunc("/", HomePage)
-    http.ListenAndServe(":8080", nil)
+  http.HandleFunc("/", HomePage)
+  http.HandleFunc("/game", GamePage)
+  http.ListenAndServe(":8080", nil)
 }
