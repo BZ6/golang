@@ -8,7 +8,7 @@
 <body>
     <pre id="universe"></pre>
     <script>
-        const ws = new WebSocket("ws://localhost:8080/game");
+        const ws = new WebSocket("ws://37.77.104.223:8080/game");
         ws.onmessage = function(event) {
             document.getElementById("universe").textContent = event.data;
         };
