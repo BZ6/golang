@@ -5,6 +5,6 @@ import (
 )
 
 func Run() {
-  fmt.Println("Сервер запущен по адресу: http://localhost:8080/")
+  fmt.Println("Сервер запущен по адресу: http://37.77.104.223:8080/")
   HandleRequests()
 }
