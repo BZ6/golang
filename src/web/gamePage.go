@@ -3,10 +3,11 @@ package web
 import (
 	"fmt"
 	"net/http"
-	"golang/src/game"
 	"time"
 
 	"github.com/gorilla/websocket"
+
+	"github.com/BZ6/golang/src/game"
 )
 
 func GamePage(w http.ResponseWriter, r *http.Request) {

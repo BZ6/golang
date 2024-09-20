@@ -1,4 +1,4 @@
-module golang
+module github.com/BZ6/golang
 
 go 1.18
 

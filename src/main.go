@@ -1,7 +1,7 @@
 package main
 
 import (
-	"golang/src/web"
+	"github.com/BZ6/golang/src/web"
 )
 
 func main() {
